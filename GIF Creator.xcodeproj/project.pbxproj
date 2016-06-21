@@ -9,10 +9,18 @@
 /* Begin PBXBuildFile section */
 		412C479D1CAB463500BD9E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C479C1CAB463500BD9E79 /* AppDelegate.swift */; };
 		412C479F1CAB463500BD9E79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C479E1CAB463500BD9E79 /* ViewController.swift */; };
-		412C47A21CAB463500BD9E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412C47A01CAB463500BD9E79 /* Main.storyboard */; };
 		412C47A41CAB463500BD9E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412C47A31CAB463500BD9E79 /* Assets.xcassets */; };
 		412C47A71CAB463500BD9E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412C47A51CAB463500BD9E79 /* LaunchScreen.storyboard */; };
 		412C47B21CAB463500BD9E79 /* GIF_CreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C47B11CAB463500BD9E79 /* GIF_CreatorTests.swift */; };
+		417D85901CB1C7DB00D2D021 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D858F1CB1C7DB00D2D021 /* CreateViewController.swift */; };
+		9F09320C1CC8044F00C22131 /* GIFTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09320A1CC8044F00C22131 /* GIFTableViewController.swift */; };
+		9F09320D1CC8044F00C22131 /* GIFTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F09320B1CC8044F00C22131 /* GIFTableViewController.xib */; };
+		9F09320F1CC8096A00C22131 /* GIFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09320E1CC8096A00C22131 /* GIFViewController.swift */; };
+		9F0932111CC8172C00C22131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0932101CC8172C00C22131 /* Main.storyboard */; };
+		9F1241721CB7F7C800571994 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1241711CB7F7C800571994 /* MyCollectionViewCell.swift */; };
+		9F42A2D91CC59193003C33DB /* GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42A2D81CC59193003C33DB /* GIF.swift */; };
+		9F42A2DB1CC59962003C33DB /* GIFTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42A2DA1CC59962003C33DB /* GIFTableViewCell.swift */; };
+		9FD49EA41CAD8C6A00995F41 /* DarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD49EA31CAD8C6A00995F41 /* DarkButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +37,21 @@
 		412C47991CAB463500BD9E79 /* GIF Creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIF Creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		412C479C1CAB463500BD9E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		412C479E1CAB463500BD9E79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		412C47A11CAB463500BD9E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		412C47A31CAB463500BD9E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		412C47A61CAB463500BD9E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		412C47A81CAB463500BD9E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		412C47AD1CAB463500BD9E79 /* GIF CreatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GIF CreatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		412C47B11CAB463500BD9E79 /* GIF_CreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIF_CreatorTests.swift; sourceTree = "<group>"; };
 		412C47B31CAB463500BD9E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417D858F1CB1C7DB00D2D021 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		9F09320A1CC8044F00C22131 /* GIFTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFTableViewController.swift; sourceTree = "<group>"; };
+		9F09320B1CC8044F00C22131 /* GIFTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GIFTableViewController.xib; sourceTree = "<group>"; };
+		9F09320E1CC8096A00C22131 /* GIFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFViewController.swift; sourceTree = "<group>"; };
+		9F0932101CC8172C00C22131 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9F1241711CB7F7C800571994 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F42A2D81CC59193003C33DB /* GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIF.swift; sourceTree = "<group>"; };
+		9F42A2DA1CC59962003C33DB /* GIFTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIFTableViewCell.swift; sourceTree = "<group>"; };
+		9FD49EA31CAD8C6A00995F41 /* DarkButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +95,18 @@
 			children = (
 				412C479C1CAB463500BD9E79 /* AppDelegate.swift */,
 				412C479E1CAB463500BD9E79 /* ViewController.swift */,
-				412C47A01CAB463500BD9E79 /* Main.storyboard */,
+				9F42A2DA1CC59962003C33DB /* GIFTableViewCell.swift */,
+				9F1241711CB7F7C800571994 /* MyCollectionViewCell.swift */,
+				417D858F1CB1C7DB00D2D021 /* CreateViewController.swift */,
+				9FD49EA31CAD8C6A00995F41 /* DarkButton.swift */,
+				9F0932101CC8172C00C22131 /* Main.storyboard */,
 				412C47A31CAB463500BD9E79 /* Assets.xcassets */,
 				412C47A51CAB463500BD9E79 /* LaunchScreen.storyboard */,
 				412C47A81CAB463500BD9E79 /* Info.plist */,
+				9F42A2D81CC59193003C33DB /* GIF.swift */,
+				9F09320A1CC8044F00C22131 /* GIFTableViewController.swift */,
+				9F09320E1CC8096A00C22131 /* GIFViewController.swift */,
+				9F09320B1CC8044F00C22131 /* GIFTableViewController.xib */,
 			);
 			path = "GIF Creator";
 			sourceTree = "<group>";
@@ -177,9 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F09320D1CC8044F00C22131 /* GIFTableViewController.xib in Resources */,
 				412C47A71CAB463500BD9E79 /* LaunchScreen.storyboard in Resources */,
 				412C47A41CAB463500BD9E79 /* Assets.xcassets in Resources */,
-				412C47A21CAB463500BD9E79 /* Main.storyboard in Resources */,
+				9F0932111CC8172C00C22131 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +222,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F42A2D91CC59193003C33DB /* GIF.swift in Sources */,
+				417D85901CB1C7DB00D2D021 /* CreateViewController.swift in Sources */,
+				9F1241721CB7F7C800571994 /* MyCollectionViewCell.swift in Sources */,
+				9F42A2DB1CC59962003C33DB /* GIFTableViewCell.swift in Sources */,
+				9F09320C1CC8044F00C22131 /* GIFTableViewController.swift in Sources */,
 				412C479F1CAB463500BD9E79 /* ViewController.swift in Sources */,
 				412C479D1CAB463500BD9E79 /* AppDelegate.swift in Sources */,
+				9FD49EA41CAD8C6A00995F41 /* DarkButton.swift in Sources */,
+				9F09320F1CC8096A00C22131 /* GIFViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +253,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		412C47A01CAB463500BD9E79 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				412C47A11CAB463500BD9E79 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		412C47A51CAB463500BD9E79 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -388,6 +412,7 @@
 				412C47B81CAB463500BD9E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		412C47B91CAB463500BD9E79 /* Build configuration list for PBXNativeTarget "GIF CreatorTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +421,7 @@
 				412C47BB1CAB463500BD9E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
